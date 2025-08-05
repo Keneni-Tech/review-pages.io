@@ -1,0 +1,6 @@
+kvenv/*
+keys.bak
+__pycache__/
+*.pyc
+*.env
+

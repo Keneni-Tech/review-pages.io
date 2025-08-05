@@ -1,0 +1,24 @@
+Title: {{ title }}
+Date: {{ date }}
+Category: {{ category }}
+Tags: {{ tags }}
+Slug: {{ slug }}
+
+
+{{ summary }}
+
+![Product Image]({{ image_url }})
+
+## Review
+
+{{ ai_review }}
+
+
+{% for feature in features %}
+- {{ feature }}
+{% endfor %}
+
+
+**{{ price }}**
+
+[Buy Now]({{ detail_page_url }})
